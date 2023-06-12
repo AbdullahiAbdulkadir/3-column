@@ -1,0 +1,50 @@
+body {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.box, a{
+    height: 350px;
+    width: 150px;
+    text-align: left;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+svg {
+    margin-top: 5px;
+}
+
+h3, p{
+    margin: 25px;
+}
+
+.p2 {
+    margin-top: 60px; 
+}
+
+
+
+.blue {
+  background-color: blue;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
