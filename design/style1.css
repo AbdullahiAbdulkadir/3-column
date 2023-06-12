@@ -27,11 +27,50 @@ h3, p{
     margin: 25px;
 }
 
-.p2 {
+.p2-b{
     margin-top: 60px; 
+    background-color: white;
+    border-radius: 15px;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    display: flex;
 }
 
+.p2-r {
+    margin-top: 60px; 
+    background-color: white;
+    border-radius: 15px;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    display: flex;
+}
 
+.p2-o {
+    margin-top: 60px; 
+    background-color: white;
+    border-radius: 15px;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    display: flex;
+}
+
+.box.red a {
+    color: red; 
+    font-size: 16px; 
+}
+
+.box.blue a {
+    color: blue; 
+    font-size: 16px; 
+}
+
+.box.orange a {
+    color: orange; 
+    font-size: 16px; 
+}
 
 .blue {
   background-color: blue;
