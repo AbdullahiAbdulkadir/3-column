@@ -1,5 +1,5 @@
 body {
-    background-color: lightpink;
+    background-color: rgb(226, 215, 217);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ body {
     display: flex;
 }
 
-.box, a{
+.box{
     height: 350px;
     width: 150px;
     text-align: left;
@@ -27,63 +27,41 @@ h3, p{
     margin: 25px;
 }
 
-.p2-b{
-    margin-top: 60px; 
-    background-color: white;
-    border-radius: 15px;
-    height: 25px;
-    text-align: center;
-    padding: 3px;
-    display: flex;
-}
-
-.p2-r {
-    margin-top: 60px; 
-    background-color: white;
-    border-radius: 15px;
-    height: 25px;
-    text-align: center;
-    padding: 3px;
-    display: flex;
-}
-
-.p2-o {
-    margin-top: 60px; 
-    background-color: white;
-    border-radius: 15px;
-    height: 25px;
-    text-align: center;
-    padding: 3px;
-    display: flex;
-}
-
-.box.red a {
-    color: red; 
+.box.red {
+    color: white; 
     font-size: 16px; 
 }
 
-.box.blue a {
-    color: blue; 
+.box.blue {
+    color: white; 
     font-size: 16px; 
 }
 
-.box.orange a {
-    color: orange; 
+.box.orange  {
+    color: white; 
     font-size: 16px; 
 }
 
 .blue {
-  background-color: blue;
+  background-color: orange;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
 .red {
-  background-color: red;
+  background-color: #30475E;
 }
 
 .orange {
-  background-color: orange;
+  background-color: #222831;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+button {
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 25px;
+    padding: 5px 10px;
+    text-align: center;
 }
